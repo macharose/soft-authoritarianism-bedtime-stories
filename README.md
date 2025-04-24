@@ -1,5 +1,6 @@
 # soft-authoritarianism-bedtime-stories
 Soft Authoritarianism and Other Bedtime Stories
+
 Whispers, rituals, and resistance in the night.
 
 A slow archive of bedtime stories for the unraveling.
