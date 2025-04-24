@@ -1,0 +1,10 @@
+#!/bin/bash
+
+FILES=text-transcripts/*.md
+shopt -s nullglob
+mapfile -t files <<< "$FILES"
+RANDOM_FILE=${files[RANDOM % ${#files[@]}]}
+cat "$RANDOM_FILE"
+
+
+
