@@ -18,6 +18,20 @@ Themes: nature, resistance, academia, identity, joy under constraint.
 - Read the matching transcripts in `/text-transcripts`.
 - Remix them. Whisper them to friends. Use them in your classes or dreams.
 
+## 🌿 Poetic License
+This project is shared under a *Poetic License*—a gentle invitation to **remix, reuse, and reimagine** these works for non-commercial purposes. Credit appreciated, rebellion encouraged.
+
+# 🌒 Soft Authoritarianism Bedtime Stories
+
+Whispers, rituals, and resistance in the night.
+
+---
+
+# 🌒 Soft Authoritarianism Bedtime Stories
+
+Whispers, rituals, and resistance in the night.
+
+---
 ## 🗂 Contents
 
 - 🎧 [Voice Notes](./voice-notes) – audio bedtime stories  
@@ -38,6 +52,8 @@ To submit, [read the Rituals README](https://github.com/macharose/soft-authorita
 ## 🔖 License
 
 A Poetic Commons license encourages remix, not profit. See [`POETIC_LICENSE.md`](./POETIC_LICENSE.md).
+<<<<<<< HEAD
+=======
 
 ## 🌿 Poetic License
 This project is shared under a *Poetic License*—a gentle invitation to **remix, reuse, and reimagine** these works for non-commercial purposes. Credit appreciated, rebellion encouraged.
