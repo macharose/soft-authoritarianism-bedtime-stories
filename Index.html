@@ -2,45 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Soft Authoritarianism Bedtime Stories</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body class="bg-light text-dark">
-  <div class="container py-5">
-    <h1 class="text-center mb-4">🌒 Soft Authoritarianism Bedtime Stories</h1>
-    <p class="lead text-center">Whispers, rituals, and resistance in the night.</p>
-
-    <hr>
-
-    <div class="text-center mt-5">
-      <a href="text-transcripts/002-faculty-witch.md" class="btn btn-dark">Read: The Faculty Witch</a>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Soft Authoritarianism Bedtime Stories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soft Authoritarianism Bedtime Stories</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       background-color: #f9f7f3;
       font-family: 'Georgia', serif;
     }
-    h1, h2 {
-      font-weight: 400;
+    header img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .card-title {
+      font-weight: 600;
     }
     .lead {
       font-style: italic;
-    }
-    .section-links a {
-      display: block;
-      margin: 0.5em 0;
+      font-size: 1.2rem;
     }
   </style>
 </head>
@@ -48,22 +33,84 @@
 
   <div class="container py-5">
     <header class="text-center mb-5">
-      <h1>🌒 Soft Authoritarianism Bedtime Stories</h1>
-      <p class="lead">Whispers, rituals, and resistance in the night</p>
-      <img src="Art/4-23-12%20Gravity.jpg" alt="Featured Art" class="img-fluid rounded my-4" style="max-width: 50%;">
+      <h1 class="display-5">🌒 Soft Authoritarianism and Other Bedtime Stories</h1>
+      <p class="lead">Whispers, rituals, and resistance in the night. A slow archive for the unraveling.</p>
+      <img src="Art/4-23-12%20Gravity.jpg" alt="Gravity Art Header" class="img-fluid">
     </header>
 
-    <section class="text-center section-links">
-      <h2>Explore</h2>
-      <a href="voice-notes/" class="btn btn-outline-dark">🎧 Voice Notes</a>
-      <a href="text-transcripts/" class="btn btn-outline-dark">📖 Text Transcripts</a>
-      <a href="https://github.com/macharose/soft-authoritarianism-bedtime-stories/tree/rituals" class="btn btn-outline-dark">🪄 Rituals Archive</a>
-      <a href="bedtime.sh" class="btn btn-outline-dark">🎲 Random Story Generator</a>
-      <a href="assets/" class="btn btn-outline-dark">🖼 Assets</a>
+    <section>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Voice Notes -->
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">🎧 Voice Notes</h5>
+              <p class="card-text">Audio bedtime stories—recorded to be heard before sleep or between obligations.</p>
+              <a href="voice-notes/" class="btn btn-dark">Listen</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text Transcripts -->
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">📖 Text Transcripts</h5>
+              <p class="card-text">Read the matching transcripts of each story, in quiet markdown form.</p>
+              <a href="text-transcripts/" class="btn btn-dark">Read</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rituals -->
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">🪄 Rituals Archive</h5>
+              <p class="card-text">Community-submitted rituals, micro-rebellions, and soft resistance. You can contribute.</p>
+              <a href="https://github.com/macharose/soft-authoritarianism-bedtime-stories/tree/rituals" class="btn btn-dark">Enter</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Assets -->
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">🖼 Assets</h5>
+              <p class="card-text">Cover art, tree photos, syllabus snippets—things that surround the stories.</p>
+              <a href="assets/" class="btn btn-dark">Browse</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Story Generator -->
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">🎲 Random Story Generator</h5>
+              <p class="card-text">Run a simple script that chooses a story for you at random. Like a bedtime roulette.</p>
+              <a href="bedtime.sh" class="btn btn-dark">Run Script</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visitors' Guide -->
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">🧭 Visitors’ Guide to the Gentle Collapse</h5>
+              <p class="card-text">A map of what could be. Utopias, soft ruins, and speculative destinations.</p>
+              <a href="https://github.com/macharose/soft-authoritarianism-bedtime-stories/tree/visitors-guide-to-the-gentle-collapse" class="btn btn-dark">Visit</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
 
     <footer class="text-center mt-5">
-      <p class="small text-muted">A poetic commons project. Remix, not profit. 🌱</p>
+      <p class="text-muted small">Shared under a Poetic Commons license. Remix, not profit. 🌱</p>
     </footer>
   </div>
 
