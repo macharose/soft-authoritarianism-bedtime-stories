@@ -1,8 +1,24 @@
 #!/bin/bash
+# bedtime.sh – Terminal bedtime story ritual
+# Randomly selects and displays a full story from /Text-Transcripts/
 
-FILES=text-transcripts/*.md
 shopt -s nullglob
-mapfile -t files <<< "$FILES"
-RANDOM_FILE=${files[RANDOM % ${#files[@]}]}
-cat "$RANDOM_FILE"
+
+# Collect all .md files from the transcripts folder
+files=(Text-Transcripts/*.md)
+
+# Check if any files are found
+if [ ${#files[@]} -eq 0 ]; then
+  echo "No stories found in Text-Transcripts/"
+  exit 1
+fi
+
+# Select a random story
+random_file=${files[RANDOM % ${#files[@]}]}
+
+# Display header and story
+echo "✨ Tonight’s story is: $(basename "$random_file" .md)"
+echo "----------------------------------------------"
+cat "$random_file"
+echo ""
 
