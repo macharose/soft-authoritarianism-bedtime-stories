@@ -1,0 +1,39 @@
+[
+    {
+      "number": "001",
+      "title": "Tree Friend",
+      "slug": "Tree-Friend",
+      "image": "../Art/treefriend.png"
+    },
+    {
+      "number": "002",
+      "title": "The Faculty Witch and the Curse of Neutrality",
+      "slug": "The_Faculty_Witch_and_the_Curse_of_Neutrality",
+      "image": "../Art/facultywitch.png"
+    },
+    {
+      "number": "003",
+      "title": "The Citizenship of Heat",
+      "slug": "The_Citizenship_of_Heat",
+      "image": "../Art/citizenshipofheat.png"
+    },
+    {
+      "number": "004",
+      "title": "Seed Keeper",
+      "slug": "The_Seed_Keeper",
+      "image": "../Art/Paul-Robeson-Tomato_2048xTLS_Postcards_.png"
+    },
+    {
+      "number": "005",
+      "title": "The Last Summer of Reason",
+      "slug": "The_Last_Summer_of_Reason",
+      "image": "../Art/lastsummerofreason-td.jpg"
+    },
+    {
+      "number": "006",
+      "title": "On Grief and Joy, in the Heartless State",
+      "slug": "On_Grief_and_Joy",
+      "image": "../Art/Cesar.jpg"
+    }
+  ]
+  
