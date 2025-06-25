@@ -53,23 +53,34 @@
   <script>
     fetch("books.json")
       .then(response => response.json())
-      .then(books => {
+      .then(categories => {
         const list = document.getElementById("reading-list");
-        books.forEach(book => {
+  
+        Object.keys(categories).forEach(category => {
+          // Add a category heading
           list.innerHTML += `
-            <div class="col">
-              <div class="card h-100">
-                <img src="${book.image}" class="card-img-top" alt="${book.title}">
-                <div class="card-body">
-                  <h5 class="card-title">${book.title}</h5>
-                  <p class="card-text"><em>${book.author}</em><br>${book.blurb}</p>
-                  <a href="${book.link}" class="btn btn-sm btn-outline-dark" target="_blank">View Book</a>
-                </div>
-              </div>
+            <div class="col-12">
+              <h3 class="mt-4 mb-3">${category}</h3>
             </div>
           `;
+  
+          categories[category].forEach(book => {
+            list.innerHTML += `
+              <div class="col">
+                <div class="card h-100">
+                  <img src="${book.image}" class="card-img-top" alt="${book.title}">
+                  <div class="card-body">
+                    <h5 class="card-title">${book.title}</h5>
+                    <p class="card-text"><em>${book.author}</em><br>${book.blurb}</p>
+                    <a href="${book.link}" class="btn btn-sm btn-outline-dark" target="_blank">View Book</a>
+                  </div>
+                </div>
+              </div>
+            `;
+          });
         });
       });
   </script>
+  
 </body>
 </html>
