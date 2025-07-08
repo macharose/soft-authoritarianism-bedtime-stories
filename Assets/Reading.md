@@ -30,6 +30,7 @@ Twilight of Democracy by Anne Applebaum
 
 How Democracies Die by Steven Levitsky & Daniel Ziblatt
 
+The New Jim Crow: Mass Incarceration in the Age of Colorblindness by Michelle Alexander, Chapter 5, The New Press, 2010. 
 
 SOCIAL THEORY + RESISTANCE
 
@@ -42,6 +43,8 @@ Mutual Aid by Peter Kropotkin (and/or Mutual Aid by Dean Spade)
 Emergent Strategy by adrienne maree brown
 
 We Do This 'Til We Free Us by Mariame Kaba
+
+ 
 
 
 RACE, COLONIALISM & LIBERATION
@@ -57,6 +60,9 @@ Sister Outsider by Audre Lorde
 All About Love by bell hooks
 
 The Undercommons by Fred Moten & Stefano Harney
+
+“How to Become White”, by George Yancey from Who is White? 
+<a href="https://www.google.com/books/edition/Who_is_White/DzNa20HR-K8C?hl=en&gbpv=1&printsec=frontcover">Section 2</a>
 
 
 ENVIRONMENTAL JUSTICE & CLIMATE
