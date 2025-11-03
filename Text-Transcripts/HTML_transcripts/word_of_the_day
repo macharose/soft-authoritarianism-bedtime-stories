@@ -55,6 +55,9 @@
       <p><em>From Soft Authoritarianism & Other Bedtime Stories</em></p>
     </div>
 
+ <!-- Feature image at top of story -->
+ <img src="../../Art/propaganda.png" alt="propaganda" class="story-image" />
+
     <div class="story-body">
       <h2>014 — Word of the Day Is Propaganda</h2>
       <p><em>Soft Authoritarianism and Other Bedtime Stories<br>Transcript for GitHub</em></p>
