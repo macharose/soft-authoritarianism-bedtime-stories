@@ -35,5 +35,11 @@
       "slug": "On_Grief_and_Joy",
       "image": "../Art/Cesar.jpg"
     }
+    {
+      "number": "007",
+      "title": "Word of the Day",
+      "slug": "word_of_the_day",
+      "image": "../Art/propaganda.png"
+    }
   ]
   
