@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Soft Map — Visitors Guide to the Gentle Collapse</title>
+  <title>Soft Map — Visitors Guide to the Soft Collapse</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,6 +13,7 @@
       background-color: #f9f7f3;
       font-family: 'Georgia', serif;
     }
+
     h1, h2, h3 {
       font-family: 'Georgia', serif;
     }
@@ -23,6 +24,21 @@
       padding: 2rem;
       margin-bottom: 2rem;
       box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    /* MAP IMAGE */
+    .map-image {
+      width: 60%;
+      display: block;
+      margin: 25px auto;
+      border-radius: 6px;
+      opacity: 0.95;
+      transition: transform 0.4s ease, opacity 0.3s ease;
+    }
+
+    .map-image:hover {
+      transform: scale(1.03);
+      opacity: 1;
     }
 
     /* MAP LAYOUT */
@@ -104,6 +120,9 @@
 
   <header class="mb-4 text-center">
     <h1 class="display-6">Soft Map of the Gentle Collapse</h1>
+
+    <img src="../../Art/map_SA.png" alt="Soft Map of the Gentle Collapse" class="map-image" />
+
     <p class="fst-italic">
       A visual orientation to the clusters and central regions of the Soft Empire.
     </p>
@@ -124,92 +143,48 @@
         </div>
       </div>
 
-      <!-- CLUSTERS AROUND -->
+      <!-- CLUSTERS -->
       <div class="map-grid">
 
-        <!-- Cluster 1 -->
         <div class="cluster-node">
           <div class="cluster-label">Cluster 1</div>
           <h3>Systems of Care &amp; Repair</h3>
           <p>Where the earliest remediations took root.</p>
-          <ul class="small">
-            <li>Valley of Unfinished Reforms</li>
-            <li>Archive of Postpartum Memory</li>
-            <li>Terrace of Everyday Care</li>
-            <li>Region of Mutual Aid Logistics</li>
-            <li>District of Restorative Containment</li>
-          </ul>
           <a href="index.html#cluster-care-repair" class="link-dark">→ Jump to Cluster 1</a>
         </div>
 
-        <!-- Cluster 2 -->
         <div class="cluster-node">
           <div class="cluster-label">Cluster 2</div>
           <h3>Accountability &amp; Ethics</h3>
           <p>Where moral landscapes are treated like territories.</p>
-          <ul class="small">
-            <li>Situational Ethics Coast</li>
-            <li>Domain of Enforcement Without Immunity</li>
-            <li>Court of Collective Decision-Making</li>
-            <li>Basin of Cultural Memory</li>
-          </ul>
           <a href="index.html#cluster-accountability-ethics" class="link-dark">→ Jump to Cluster 2</a>
         </div>
 
-        <!-- Cluster 3 -->
         <div class="cluster-node">
           <div class="cluster-label">Cluster 3</div>
           <h3>Ecology &amp; the More-Than-Human</h3>
           <p>Where nonhuman worlds are civic actors.</p>
-          <ul class="small">
-            <li>Council of Nonhuman Participants</li>
-            <li>Reciprocity Plains</li>
-            <li>Department of Future Weather</li>
-            <li>Remediation Fields</li>
-          </ul>
           <a href="index.html#cluster-ecology-more-than-human" class="link-dark">→ Jump to Cluster 3</a>
         </div>
 
-        <!-- Cluster 4 -->
         <div class="cluster-node">
           <div class="cluster-label">Cluster 4</div>
           <h3>Infrastructure &amp; Mobility</h3>
           <p>The things extraction broke, reciprocity rebuilt.</p>
-          <ul class="small">
-            <li>Transit Harmonics Region</li>
-            <li>Corridor of Lost Government Services</li>
-            <li>Library Constellation</li>
-            <li>Strip Mall Reclamation Zone</li>
-          </ul>
           <a href="index.html#cluster-infrastructure-mobility" class="link-dark">→ Jump to Cluster 4</a>
         </div>
 
-        <!-- Cluster 5 -->
         <div class="cluster-node">
           <div class="cluster-label">Cluster 5</div>
           <h3>Culture, Mind, Information</h3>
           <p>The unnamed war, propaganda detox, attention reclamation.</p>
-          <ul class="small">
-            <li>Observatory of Collective Attention</li>
-            <li>PsyOps Greenbelt</li>
-            <li>Archive of Discarded Narratives</li>
-            <li>Education Spiral</li>
-          </ul>
           <a href="index.html#cluster-culture-mind-information" class="link-dark">→ Jump to Cluster 5</a>
         </div>
 
-        <!-- Cluster 6 -->
         <div class="cluster-node">
           <div class="cluster-label">Cluster 6</div>
           <h3>Daily Life, Work &amp; Organizing</h3>
           <p>Everyday humanity, still imperfect, still evolving.</p>
-          <ul class="small">
-            <li>Cooperative Labor Ring</li>
-            <li>Market of Soft Capital</li>
-            <li>Hearth District</li>
-            <li>Domestic Accord</li>
-            <li>Shadow of the Old Incentives</li>
-          </ul>
           <a href="index.html#cluster-daily-life-work" class="link-dark">→ Jump to Cluster 6</a>
         </div>
 
@@ -218,7 +193,6 @@
     </div>
   </section>
 
-  <!-- NAVIGATION -->
   <nav class="text-center mt-3">
     <a href="../index.html" class="btn btn-outline-dark btn-sm">⬅️ Main Project</a>
     <a href="index.html" class="btn btn-outline-dark btn-sm">🧭 Visitors’ Guide Index</a>
